@@ -1,0 +1,50 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--[if !mso]><!-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mobile Only contents</title>
+<style type="text/css">
+  div, p, a, li, td {-webkit-text-size-adjust:none;}
+  p {font-size:14px;margin-bottom:10px;}
+  div[style*="margin: 16px 0"] {margin:0 !important;}
+  table {border-spacing:0;font-family:arial, sans-serif;color:#494949;}
+  td {padding:0;}
+  img {border:0;}
+
+  .desktoponly {height:auto !important;display: block !important;line-height:23px !important;font-family:arial, sans-serif !important;font-size:16px !important;font-weight:normal !important;color:#494949 !important;text-align:left !important;}
+  .mobileonly {display:none !important;height: 0 !important;overflow:hidden !important;line-height:0px;}
+ 
+  /* mobile */
+  @media screen and (max-width:480px) { 
+    .desktoponly {display:none !important;height: 0 !important;overflow:hidden !important;line-height:0px;}
+    .mobileonly {height:auto !important ;padding-bottom:10px !important;display: block !important;line-height:23px !important;font-family:arial, sans-serif;font-size:16px !important;font-weight:normal;color:#494949 ;text-align:left;min-height:50px !important;max-height: auto !important;overflow: visible !important;}
+
+  }
+</style>
+</head>
+<body style="margin:0;padding:0;min-width:100%;">
+
+  <table width="100%" style="border-spacing:0;">
+    <tr>
+      <td class="one-column" style="padding:30px 30px 20px 30px;">
+        <table width="100%" style="border-spacing:0;">
+          <tr>
+            <td class="inner contents" style="padding:0;width:100%;">  
+              
+              <p class="desktoponly" align="left" style="">
+                Text for desktop
+              </p>
+              <span class="mobileonly" style="display:none; line-height:0px;font-size:0;max-height: 0px; font-size: 0px; overflow: hidden; mso-hide: all">Text for mobile</span>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
